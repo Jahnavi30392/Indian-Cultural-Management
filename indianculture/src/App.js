@@ -11,6 +11,11 @@ import Home from './components/Home';
 import NavBar from './components/NavBar';
 import Temple from './components/temples';
 import Kedarnath from './components/Kedarnath';
+import MapKedarnath from './components/MapKadranath';
+import PlaceKedarnath from './components/PlaceKedarnath';
+import TourGuideKedarnath from './components/TourGuideKedarnath';
+import Monuments from './components/Monuments';
+import VirtualTourPage from './components/VirtualTourPage';
 function App() {
   return (
     
@@ -27,8 +32,11 @@ function App() {
         <Route path="/user-dashboard" element={<Home/>} />
         <Route path="/temples" element={<Temple />} />
         <Route path="/kedarnath" element={<Kedarnath />} />
-
-      
+        <Route path="/map" element={<MapKedarnath />} />
+        <Route path="/places-to-explore" element={<PlaceKedarnath />} />
+        <Route path="/tourguidekedarnath" element={<TourGuideKedarnath />} />
+        <Route path="/monuments" element={<Monuments />} />
+        <Route path="/virtual-tours" element={<VirtualTourPage />} />
         </Routes>
       </div>
     </Router>

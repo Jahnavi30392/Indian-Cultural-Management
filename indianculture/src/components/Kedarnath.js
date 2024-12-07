@@ -10,9 +10,9 @@ export default function Kedarnath() {
         <nav>
           <ul>
             <li><Link to="/temples">Temples</Link></li>
-            <li><Link to="/enthusiast">Cultural Enthusiast</Link></li>
-            <li><Link to="/creator">Content Creator</Link></li>
-            <li><Link to="/tourguide">Tour Guide</Link></li>
+            <li><Link to="/map">Map</Link></li>
+            <li><Link to="/places-to-explore">Places to Explore Near</Link></li>
+            <li><Link to="/tourguidekedarnath">Tour Guide</Link></li>
           </ul>
         </nav>
       </header>
@@ -26,14 +26,14 @@ export default function Kedarnath() {
           className="kedarnath-image"
         />
         <p>
-          The Kedarnath Temple is one of the holiest Hindu shrines dedicated to Lord Shiva. 
-          Located in the Himalayan range of Uttarakhand, it is part of the Chota Char Dham pilgrimage. 
-          The temple is renowned for its historical and spiritual significance, surrounded by breathtaking 
+          The Kedarnath Temple is one of the holiest Hindu shrines dedicated to Lord Shiva.
+          Located in the Himalayan range of Uttarakhand, it is part of the Chota Char Dham pilgrimage.
+          The temple is renowned for its historical and spiritual significance, surrounded by breathtaking
           mountains and the Mandakini River.
         </p>
         <p>
-          Built by the Pandavas and later revived by Adi Shankaracharya, Kedarnath attracts millions 
-          of devotees every year. The temple is accessible after an inspiring trek, making the journey 
+          Built by the Pandavas and later revived by Adi Shankaracharya, Kedarnath attracts millions
+          of devotees every year. The temple is accessible after an inspiring trek, making the journey
           as sacred as the destination itself.
         </p>
       </main>
