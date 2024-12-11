@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
+import config from '../config';
 
 function Signup() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -14,7 +15,7 @@ function Signup() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.post("http://localhost:8080/signup", formData);
+      const response = await axios.post(`${config.baseURL}/signup`, formData);
       alert('Signup successful!');
       console.log(response.data);
       navigate('/login');

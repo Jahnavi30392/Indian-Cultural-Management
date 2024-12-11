@@ -16,6 +16,7 @@ import PlaceKedarnath from './components/PlaceKedarnath';
 import TourGuideKedarnath from './components/TourGuideKedarnath';
 import Monuments from './components/Monuments';
 import VirtualTourPage from './components/VirtualTourPage';
+import Architecture from './components/Architecture';
 function App() {
   return (
     
@@ -37,6 +38,7 @@ function App() {
         <Route path="/tourguidekedarnath" element={<TourGuideKedarnath />} />
         <Route path="/monuments" element={<Monuments />} />
         <Route path="/virtual-tours" element={<VirtualTourPage />} />
+        <Route path="/architecture" element={<Architecture />} />
         </Routes>
       </div>
     </Router>

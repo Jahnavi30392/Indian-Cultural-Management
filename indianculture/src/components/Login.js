@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
 import NavBar from './NavBar';
+import config from "../config"
 
 function Login() {
   const [isLoaded, setIsLoaded] = useState(false);
@@ -15,7 +16,7 @@ function Login() {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const response = await axios.get("http://localhost:8080/signin", {
+      const response = await axios.get(`${config.baseURL}/signin`, {
         params: {
           email: formData.email,
           password: formData.password,
